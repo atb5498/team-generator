@@ -13,22 +13,22 @@ function getManager() {
         {
             type: "input",
             name: "name",
-            message: "What is the Manager's name?"
+            message: "What is your name?"
         },
         {
             type: "input",
             name: "id",
-            message: "What is the Manager's ID?"
+            message: "What is your ID?"
         },
         {
             type: "input",
             name: "email",
-            message: "What is the Manager's email address?"
+            message: "What is your email address?"
         },
         {
             type: "input",
             name: "office",
-            message: "What is the Manager's office number?"
+            message: "What is your office number?"
         }
     ])
 }
@@ -100,7 +100,7 @@ async function main() {
 
     // Generates html file based on prompt answers
     const html = generateHTML(team);
-    await writeFileAsync("test.html", html);
+    await writeFileAsync("index.html", html);
 }
 
 main();
