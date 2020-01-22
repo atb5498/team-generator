@@ -98,7 +98,7 @@ async function main() {
     const intern = await getIntern();
     team.push(new Intern(intern.name, intern.id, intern.email, intern.education));
 
-    // Generates html file based on the answers
+    // Generates html file based on prompt answers
     const html = generateHTML(team);
     await writeFileAsync("test.html", html);
 }

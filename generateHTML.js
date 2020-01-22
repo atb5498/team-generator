@@ -3,8 +3,6 @@ const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
 
 function generateHTML(team) {
-    console.log("team", team);
-
     const createManagerCard = (manager) => `
     <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
         <div class="card-header">Manager</div>
@@ -50,7 +48,7 @@ function generateHTML(team) {
         </div>
     </div>`;
 
-    const html = `
+    return `
     <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -90,10 +88,7 @@ function generateHTML(team) {
         </div>
     </div>
 </body>
-</html>
-    `;
-
-    console.log(html);
+</html>`;
 }
 
 // generateHTML([new Manager('mario', 123, 'harpmari12@gmail.com', 123), new Engineer('andy', 456, 'andyb@gmail.com', 654), new Intern('jordan', 789, 'jordanh@gmail.com', 987)]);
