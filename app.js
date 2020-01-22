@@ -86,15 +86,15 @@ function getIntern() {
 async function main() {
     const team = [];
 
-    // Get manager info
+    // Gets manager info from user
     const manager = await getManager();
     team.push(new Manager(manager.name, manager.id, manager.email, manager.office));
 
-    // Get engineer info
+    // Gets engineer info from user
     const engineer = await getEngineer();
     team.push(new Engineer(engineer.name, engineer.id, engineer.email, engineer.github));
 
-    // Get intern info
+    // Gets intern info from user
     const intern = await getIntern();
     team.push(new Intern(intern.name, intern.id, intern.email, intern.education));
 

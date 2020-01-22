@@ -91,6 +91,4 @@ function generateHTML(team) {
 </html>`;
 }
 
-// generateHTML([new Manager('mario', 123, 'harpmari12@gmail.com', 123), new Engineer('andy', 456, 'andyb@gmail.com', 654), new Intern('jordan', 789, 'jordanh@gmail.com', 987)]);
-
 module.exports = generateHTML;
