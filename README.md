@@ -1,4 +1,4 @@
-# DeveloperProfileGenerator
+# Team Generator
 This application is intended to allow users to generate an html file that displays a team of engineers and interns, along with their basic information. 
 
 # User story
@@ -14,7 +14,7 @@ SO THAT I have quick access to their information
 3. An html file is generated and written to index.html to be viewed in the browser
 
 # Link
-https://github.com/atb5498/TeamGenerator
+https://atb5498.github.io/team-generator/
 
 ![alt text](screen.png "Logo Title Text 1")
 
