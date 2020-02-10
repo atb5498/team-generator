@@ -1,5 +1,5 @@
 # Team Generator
-This application is intended to allow users to generate an html file that displays a team of engineers and interns, along with their basic information. 
+This command line application is intended to allow users to generate an html file that displays a team of engineers and interns, along with their basic information. 
 
 # User story
 AS A manager
