@@ -13,9 +13,6 @@ SO THAT I have quick access to their information
 2. Answer the following prompts to provide information about yourself, engineers, and interns
 3. An html file is generated and written to index.html to be viewed in the browser
 
-# Link
-https://github.com/atb5498/team-generator
-
 ![alt text](screen.png "Logo Title Text 1")
 
 # Built With
